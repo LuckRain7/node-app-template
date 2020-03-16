@@ -1,0 +1,31 @@
+{
+  "name": "Demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuckRain7/Demo.git"
+  },
+  "keywords": [],
+  "author": "LuckRain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuckRain7/Demo/issues"
+  },
+  "homepage": "https://github.com/LuckRain7/Demo#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-cors": "^0.0.16",
+    "koa-jwt": "^3.6.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.7.12"
+  }
+}
