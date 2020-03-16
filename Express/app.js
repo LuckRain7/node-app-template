@@ -8,6 +8,7 @@ const bodyParser = require('body-parser') //body-parser插件用于post参数的
 // 自定义路由模块的引用
 const indexRouter = require('./routes/index')
 const usersRouter = require('./routes/users')
+const adminRouter = require('./routes/admin')
 
 // 创建一个 Express 应用
 const app = express()
@@ -30,6 +31,7 @@ app.use(express.static(path.join(__dirname, 'public'))) //静态文件
 // 自定义路由模块的引用
 app.use('/', indexRouter)
 app.use('/users', usersRouter)
+app.use('/admin/api', adminRouter) 
 
 // 捕捉404错误并进行错误处理
 app.use(function(req, res, next) {
