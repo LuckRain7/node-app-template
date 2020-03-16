@@ -1,5 +1,6 @@
 {
   "name": "node-app-template",
+  "description": "node框架模板",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:LuckRain7/node-app-template.git",
