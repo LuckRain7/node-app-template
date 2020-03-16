@@ -38,6 +38,6 @@ app.use(router.routes()).use(router.allowedMethods());// 启动路由
 app.use(routerAdmin.routes()).use(routerAdmin.allowedMethods());// 管理员路由
 
 // 监听端口
-app.listen(4000, function() {
-  console.log("run in 4000");
+app.listen(3000, function() {
+  console.log("run in 3000");
 });
