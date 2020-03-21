@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:LuckRain7/node-app-template.git",
   "author": "LuckRain7<https://github.com/LuckRain7>",
+  "scripts": {
+    "git": "git push gitee master && git push github master",
+  },
   "license": "MIT"
 }
