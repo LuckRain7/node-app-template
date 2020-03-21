@@ -1,5 +1,5 @@
 # node-app-template
-提供基于 Express、Koa、Egg 框架的模板，用户可以基于此快速构建应用
+提供基于 Express、Koa、Egg 框架的模板，用户可以快速构建应用
 
 - Express ^4.16.1
 - Koa ^2.11.0
@@ -39,4 +39,3 @@ open http://localhost:7001
 # License
 
 [MIT](LICENSE)
-
